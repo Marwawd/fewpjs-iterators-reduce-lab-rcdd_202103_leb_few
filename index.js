@@ -3,7 +3,7 @@ let number,n;
 // Code your solution here
 totalBatteries(g){
 //let number=
-return g.reduce((a,c)=> return a+c);
+return g.reduce((a,c)=> a+c);
 //return number;
 
 }

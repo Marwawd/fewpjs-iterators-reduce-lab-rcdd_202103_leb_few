@@ -10,9 +10,11 @@ return g.reduce((a,c)=> a+c);
 }
 let res=totalBatteries(batteryBatches);
 */
-let totalBatteries=function reducer(totalBatteries){
+let totalBatteries;
+function reducer(g){
 //let number=
-return totalBatteries.reduce((a,c)=> a+c);
+ totalBatteries=g.reduce((a,c)=> a+c);
+ return totalBatteries
 //return number;
 
 }
